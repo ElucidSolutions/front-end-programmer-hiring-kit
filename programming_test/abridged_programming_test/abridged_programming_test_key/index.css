@@ -1,0 +1,9 @@
+/* Color the even rows of the citation table light blue. */
+tbody tr:nth-child(even){
+  background-color: rgba(200, 200, 255, 0.5);
+}
+
+/* Highlight the currently moused-over row in the citation table. */
+tbody tr:hover{
+  background-color: rgba(255, 150, 050, 0.5);
+}
