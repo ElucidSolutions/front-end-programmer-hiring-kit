@@ -47,14 +47,16 @@ This assessment aims to identify applicants who are:
 * Intrinsically Motivated (1)
   motivated by pride in their work and who derive genuine enjoyment from programming
 
-* Sedulous (4)
-  exhibiting a consistent commitment to high quality work
+* Disciplined (2)
+  able to focus and maintain consistent output
+
+  For example: maintains time spent records, meaningful Git commit log messages, updates tickets and other task tracking records.
 
 * Systematic (3)
   approaches tasks in a methodical process-oriented way 
 
-* Disciplined (2)
-  able to focus and maintain consistent output
+* Sedulous (4)
+  exhibiting a consistent commitment to high quality work
 
 * Collaborative (5)
   possessing good communication skills and a willingness to coordinate their efforts with others

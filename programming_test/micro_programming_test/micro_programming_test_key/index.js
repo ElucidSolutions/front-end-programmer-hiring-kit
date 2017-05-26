@@ -294,8 +294,8 @@ function filterByQuery (citations, query) {
 // III. Auxiliary Functions
 
 /*
-  Accepts a Citation array object and returns
-  its authors as a string array.
+  Accepts a Citation object and returns its
+  authors as a string array.
 
   Note: problem 4.
 */
@@ -337,39 +337,4 @@ function union (arrays) {
 function add (array, value) {
   array.includes (value) || array.push (value);
   return array;
-}
-
-// IV. Render Function
-
-/*
-  Accepts a Citation array and returns an HTML
-  string that represents an HTML table
-  listing the citations in citations.
-
-  Note: Problem 6.
-*/
-function toHTML (citations) {
-  return '<table>' +
-    '<thead>' + 
-      '<tr>' + 
-        '<th>Title</th>' +
-        '<th>Authors</th>' +
-        '<th>Year</th>' +
-      '</tr>' +
-    '</thead>' +
-    '<tbody>' +
-      citations.map (function (citation) {
-        return '<tr>' +
-          '<td>' + citation.title + '</td>' +
-          '<td>' + citation.authors.sort ().join () + '</td>' +
-          '<td>' + citation.year + '</td>' +
-        '</tr>';
-      }).join ('') +
-    '</tbody>' +
-    '<tfoot>' +
-      '<tr><td>Title - the title of the given book</td></tr>' +
-      '<tr><td>Authors - the authors of the given book listed alphabetically.</td></tr>' +
-      '<tr><td>Year - the year in which the given book was published</td></tr>' +
-    '</tfoot>' +
-  '</table>';
 }
