@@ -1,0 +1,38 @@
+CSS Assessment
+======================
+
+General Rubric
+------
+
+We will evaluate this exercise against the following criteria:
+
+1. Accuracy (40%)
+
+  * How closely does your composition match the mock up?
+  * Do elements match in size?
+  * Do your margins and padding match the mock up? 
+  * Do your font sizes and weights match exactly?
+  * Do your color codes match exactly? 
+
+2. Completeness (40%)
+
+  * Were you able to replicate all of the elements in the mock up? 
+
+
+3. Clarity (10%)
+
+  * Is your code consistently formatted?
+  * Do you use intelligible, meaningful, and consistent class and ID names?
+
+4. Structure (5%)
+  * Is your code well organized linearly?
+  
+
+5. Conciseness (5%)
+
+  * Does your code use short-hand whenever possible? 
+  * Is your code free from unnecessary declarations? 
+
+
+
+

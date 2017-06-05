@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "Open-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: 'Open Sans',  sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.myContainer{
+	width: 310px;
+	padding: 0px 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.stillNeeded{
+	color: #ffffff;
+	background-color:#424242;
+	border-radius: 3px;
+	position: relative;
+	padding: 15px 5px 3px 5px;
+	font-size: .8em;
+}
+.stillNeeded::after{
+	content:"";
+	position: absolute;
+	top: 38px;
+	right: 28px;
+	width: 13px;
+	height: 13px;
+	background-color: #424242;
+	transform: rotate(45deg);
+
+}
+.stillNeeded span{
+	font-weight: 600;
+}
+
+
+.mainBox{
+
+	margin-top: 11px;
+}
+.statusBar{
+	border: 1px solid #e5e5e5;
+	width: 100%;
+	height:11px;
+	position: relative;
+	box-shadow: inset 0px 1px 2px #e5e5e5;
+	background-color: #fafafa;
+}
+.status{
+	width: 88%;
+	height:11px;
+	position:absolute;
+	top: 0;
+	left: 0;
+	background-color: #f15e33;
+}
+
+.mainBoxContent{
+	padding: 20px 15px 15px 15px;
+	color: #949494;
+	font-size: .8em;
+	text-align: left;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0px 1px 3px #e5e5e5;
+	
+}
+.emphasisText{
+	color: #f15e33;
+	font-weight: 600;
+}
+p{
+	margin-bottom: 10px;
+}
+
+.giveButton{
+	margin: 0px auto;
+	text-align: center;
+	line-height: 43px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 3px;
+	color: #ffffff;
+	font-size: 1.2em;
+	height:45px;
+	width: 100%;
+	background-color: #00be1b;
+	border: solid 2px #2D9E0D;
+	box-shadow: 0px 2px 0px #2D9E0D;
+}
+
+/*  Your CSS goes here */
+
+

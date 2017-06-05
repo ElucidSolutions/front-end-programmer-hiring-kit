@@ -1,0 +1,65 @@
+CSS Assessment
+======================
+
+General Rubric
+------
+
+We will evaluate this exercise against the following criteria:
+
+1. Accuracy (40%)
+
+  * How closely does your composition match the mock up?
+  * Do elements match in size?
+  * Do your margins and padding match the mock up? 
+  * Do your font sizes and weights match exactly?
+  * Do your color codes match exactly? 
+
+2. Completeness (40%)
+
+  * Were you able to replicate all of the elements in the mock up? 
+
+
+3. Clarity (10%)
+
+  * Is your code consistently formatted?
+  * Do you use intelligible, meaningful, and consistent class and ID names?
+
+4. Structure (5%)
+  * Is your code well organized linearly?
+  
+
+5. Conciseness (5%)
+
+  * Does your code use short-hand whenever possible? 
+  * Is your code free from unnecessary declarations? 
+
+
+
+  Points
+  ------
+
+  1. Accuracy - (40pt max)
+  * Element sizes - (10pt)
+  * Margin/Padding - (10pt)
+  * Font size matching - (10pt)
+  * Color matching - (5pt)
+  * Border / Drop Shadow matching - (5pt)
+
+  2. Completeness (40pt max)
+  * Remaining goal text, box, and tick - (10pt)
+  * Progress bar - (10pt)
+  * Main body text (3 days left, body text) - (10pt)
+  * Give now button (Box, text, shadows) - (10pt)
+
+  3. Clarity (10pt max)
+  * The solution uses consistent indenting and line breaks. (5pt)
+  * The class and ID names are intelligble, meaningful, and consistent. (5pt)
+
+  4. Structure (5pt)
+  * Code goes in order of elements present on page (5pt)
+
+  5. Conciseness (5pt)
+  * Code uses shorthand whenever possible (3pt)
+  * The code contains no unnecessary declarations (2pt) 
+
+
